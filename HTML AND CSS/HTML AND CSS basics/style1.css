@@ -1,0 +1,41 @@
+body{
+background-image: url('b.jpg');    
+background-size: cover;
+
+}
+
+
+
+.box{
+    height: 60%;
+    width: 60%;
+    border: black 2px solid;
+    margin-left: 20%;
+    margin-top: 4%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.226);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.box:hover{
+    box-shadow: 0 8px 16px 0 rgba(39, 38, 38, 0.678);
+}
+
+h1{
+    text-align: center;
+}
+
+.registerbtn {
+    background-color: #090846;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 96%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }

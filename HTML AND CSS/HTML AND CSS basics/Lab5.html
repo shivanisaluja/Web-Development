@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="box">
+    <form action="" autocomplete="on" style="padding-left: 30px;">
+        <h1><b><u>Registration Form</u></b></h1>
+        
+        <br><br>
+
+        <label for="fname"><b>First Name</b></label>
+        <input type="text" placeholder="Enter First Name" name="fname" id="fname" required>
+<br><br>
+        <label for="email"><b>Email</b></label>
+    <input type="email"  pattern="*@-.-" placeholder="Enter Email" name="email" id="email" required>
+
+    <br><br>
+
+    <label for="password"><b>Password</b></label>
+    <input type="password" placeholder="Enter password" name="password" id="password"   minlength="8" required>
+
+    <br><br>
+
+    <label for="age"><b>Enter Age </b></label>
+    <input type="number" placeholder="Enter age" name="age" id="age" min="18" max="50" required>
+
+    <br><br>
+
+    <label for="pnum"><b>Enter Phone Number</b></label>
+    <input type="tel" placeholder="Enter phone number" pattern="[0-9]{10}" name="pnum" id="pnum" required>
+    <br><br>
+
+    <label for="col"><b>Enter Favourite color</b></label>
+    <input type="color" placeholder="Enter color" name="col" id="col" >
+    <br><br>
+
+    <label for="dob"><b>Enter Date Of Birth</b></label>
+    <input type="date" placeholder="Enter Date Of Birth" name="dob" id="dob"   required>
+    <br><br>
+
+    <label for="tob"><b>Time of Birth</b></label>
+    <input type="time" placeholder="Enter Time of Birth" name="tob" id="tob" required>
+
+    <br><br>
+    <label for="range"><b>Enter Range</b></label>
+    <input type="range" value="10000" min="5000" max="50000" onchange="output.value=value" step="500" placeholder="Enter Range"  required>   
+    <output style="color: red;" id="output">10000</output>
+    <br><br>
+    <audio controls  src="1.mp3"></audio>
+    <br><br>
+    <video controls width="20%" height="20%" src="v.mp4"></video>
+
+    <br><br>
+    <button type="submit" class="registerbtn">Register</button>
+
+
+
+
+
+        
+
+
+
+
+    </form>
+</div>
+</body>
+</html>

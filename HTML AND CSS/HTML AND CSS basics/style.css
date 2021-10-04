@@ -1,0 +1,382 @@
+*{
+    padding: 0;
+    margin: 0%;
+}
+
+
+/* Body Header*/
+#body-header{
+    height: 65vh;
+    background-image: url(laptopm.jpg);
+    background-position:center;
+    background-attachment: fixed;
+  opacity: 0.8;
+
+}
+
+
+
+/* top horizontal list */
+.horizontal-list{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.horizontal-list li{
+    display: inline;
+   margin: 0px 20px 20px 0px;
+}
+.horizontal-list li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 25px;
+ 
+    
+
+}
+
+
+.horizontal-list li a:hover{
+    color: rgb(228, 224, 224);
+    text-decoration: underline;
+    font-size: 25px;
+
+}
+
+
+
+/*  name  and social icons*/
+.name-icon-container{
+    margin-top: 150px;
+    text-align: center;
+}
+
+#myName{
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+/* glyphicons */
+.social-icons li a i{
+    padding: 10px;
+   border-radius: 50%;
+
+}
+
+.social-icons li a i:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196,0.3); 
+}
+
+/* Section --> image and about */
+#about{
+    height:auto;
+    width: 100%;
+    position: relative;
+  
+}
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -100px;
+    
+}
+
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 90%;
+    box-shadow: 0px 0px 2px 4px rgba(97, 97, 97, 0.3); 
+
+}
+
+/* About content */
+#about-content{
+    text-align: center;
+    font-size: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+ 
+ }
+
+
+
+/* Education heading */
+
+#education{
+    background-color: rgb(241, 240, 240);
+}
+
+.Education-Heading
+{
+width: auto;
+padding: 10px 10px 10px;
+margin-left: 10px;
+font-weight: 400;
+text-align: center;
+}
+.Education-Heading span{
+
+    font-size: 30px;
+    display: inline-block;
+    color: blue;
+    margin-right: 0.5em;
+    padding-top: 10px;
+
+}
+.Education-Heading span h1 {
+    text-shadow: 2px 3px #b6b4b4;
+  }
+
+  /* Education table */
+
+  table,  td {
+    border: 2px solid black;
+    border-collapse: collapse;
+        }
+
+
+.cen td{
+    background-color: #5390f3;
+    color: rgb(255, 255, 255);
+}
+     .cen td b{
+        font-size: 20px;
+        text-decoration: underline;
+       
+       
+        }
+
+    .cen{
+            margin-left: auto;
+     margin-right: auto;
+     width: 70%;
+        }
+
+    .table-data{
+        font-size: 12px;
+        text-align: left;
+        
+    }
+
+
+
+
+ /* Skills Section */
+#skills{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+
+.Skills-Heading
+{
+width: auto;
+padding: 10px 10px 10px;
+margin-left: 10px;
+font-weight: 400;
+}
+.Skills-Heading span{
+
+    font-size: 30px;
+    display: inline-block;
+    color: blue;
+    margin-right: 0.5em;
+    padding-top: 10px;
+
+}
+.Skills-Heading span h1 {
+    text-shadow: 2px 3px #b6b4b4;
+  }
+
+
+
+
+
+
+
+/* skill progress */
+.skills-display {
+    margin-left: 20px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.skill-progress {
+    width: 7rem;
+    height: 1.4rem;
+    margin: 20px;
+    background-color: rgb(228, 226, 226);
+    border-radius: 0.8rem;
+    overflow: hidden;
+    box-shadow: inset 2px 4px 2px 1px #6b6a6a;
+    margin-bottom: 10%;
+}
+
+
+
+.skill-name {
+    font-size: 15px;
+    color: white;
+    padding: 1.5px 0 8px 10px;
+
+}
+
+
+/* JAVA--> 85% with Blue */
+.mb-blue {
+    background-color: #2857a4;
+}
+
+.eighty-five-percent {
+    height: inherit;
+    width: 85%;
+}
+
+/* Angular */
+
+.mb-orange{
+    background-color: rgb(255, 145, 0);
+}
+.seventy-percent{
+    height: inherit;
+    width: 70%;
+}
+
+
+/* Html--> 95% with green */
+.mb-green{
+    background-color: rgb(3, 94, 30);
+}
+.ninetyFive-percent {
+    height: inherit;
+    width: 95%;
+}
+
+/* Css-->90% with black */
+.mb-black{
+    background-color: black;
+}
+.ninety-percent{
+    height: inherit;
+    width: 90%;
+
+}
+/* JavaScript-->70% */
+.mb-gold{
+    background-color: rgb(78, 67, 3);
+}
+.seventy-percent{
+    height: inherit;
+    width: 70%;
+}
+
+
+
+
+
+
+     /* Projects */
+
+     #projects{
+        background-color: rgb(243, 241, 241);
+    }
+
+    .Projects-Heading
+{
+width: auto;
+padding: 10px 10px 10px;
+margin-left: 10px;
+font-weight: 400;
+text-align: center;
+}
+.Projects-Heading span{
+
+    font-size: 30px;
+    display: inline-block;
+    color: blue;
+    margin-right: 0.5em;
+    padding-top: 10px;
+
+}
+.Projects-Heading span h1 {
+    text-shadow: 2px 3px #b6b4b4;
+  }
+
+  .pro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+  }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.226);
+        transition: 0.3s;
+        width: 15%;
+        border-radius: 5px;
+       
+      }
+      
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(39, 38, 38, 0.678);
+      }
+      
+      img {
+        border-radius: 5px 5px 0 0;
+      }
+      
+      .container {
+        padding: 2px 16px;
+      }
+
+      .container p{
+          font-size: 13px;
+      }
+
+
+
+      /* Contact  */
+      #contact{
+        height: 400px;
+        width: 100%;
+        background-image: linear-gradient(  rgb(3, 3, 53) 20%,rgb(5, 2, 7));
+        
+        
+    }
+
+    .c{
+        color: white;
+        margin-left: 630px;
+    }
+    
+    input{
+        border:none;
+        background-color: transparent;
+        border-bottom: white 2px solid;
+        border-radius: 2px;
+        color: white;
+    }
+
+    .msg{
+        border:none;
+        background-color: transparent;
+        border-bottom: white 2px solid;
+        border-radius: 2px;
+        color: white;
+        margin-left: 630px;
+    }
+
+
+
+
+
